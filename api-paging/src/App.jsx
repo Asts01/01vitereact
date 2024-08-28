@@ -73,7 +73,7 @@ function App() {
           <div className='flex'>Selected Count :  <div className='px-1 bg-pink-400'>{slectedValues.length}</div></div>
         </div>
         <div className='flex py-2 align-center'>
-          <div>Selected N: <div>{selectedNames.join(', ')}</div></div> 
+          <div>Selected Names: <div>{selectedNames.join(', ')}</div></div> 
         </div>
         <table className='w-screen table-auto mb-20'>
           <thead className='bg-red-300'>
