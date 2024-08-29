@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  //slected ids and names from the drop-down
+  //slected ids and names via check-box
   const [slectedValues, addSelectedValues] = useState([]);
   const [selectedNames, setSelectedNames] = useState([]);
   const [perPageNo, updatePerPageNo] = useState(10);//drop-down for no of entries per page
